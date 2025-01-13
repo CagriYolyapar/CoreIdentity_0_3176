@@ -1,0 +1,7 @@
+﻿1 => Code First yapınızı hazırlamaya baslarsınız... Bunu yaparken Identity class'larından miras aldıgımız icin interface destegi aldıgımızı da gözlemleyebilirsiniz..
+
+2 => Configuration kısmına geceriz...
+
+3 => Context class'ını düzenlemeye baslarız...
+
+4 => Middleware ayarlamaları

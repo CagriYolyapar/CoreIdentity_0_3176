@@ -1,0 +1,3 @@
+﻿Versiyon uyumluluguna dikkat ediniz. Core versiyonu kacta actıysanız o versiyonda kütüphaneleri indiriniz..
+
+Microsoft.AspNetCore.Identity.EntityFrameworkCore, Microsoft.EntityFrameworkCore.SqlServer , Microsoft.EntityFrameworkCore.Tools, Microsoft.EntityFrameworkCore.Proxies kütüphanesi indirilmiştir...
