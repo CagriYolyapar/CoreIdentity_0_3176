@@ -1,0 +1,48 @@
+﻿@model UserRegisterRequestModel
+
+@*
+   Normal şartlarda PageVM kullanımı burada uygun olan yapıdır...Direkt RequestModel gönderdigimiz icin kafanız karısmasın...Sayfa birden fazla bilgi göndermek istiyorsa PageVM olmadıgı icin sıkıntıya düseriz...
+
+*@
+
+
+<form method="post" class="p-3 w-75 m-auto">
+    <div class="mb-3">
+        <label>Kullanıcı ismi giriniz</label>
+        <span class="text-danger" asp-validation-for="UserName"></span>
+
+        <input asp-for="UserName" class="form-control"/>
+    </div>
+
+    <div class="mb-3">
+        <label>Sifre giriniz</label>
+        <span class="text-danger" asp-validation-for="Password"></span>
+
+        <input asp-for="Password" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Sifre giriniz</label>
+        <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+
+        <input asp-for="ConfirmPassword" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Email giriniz</label>
+        <span class="text-danger" asp-validation-for="Email"></span>
+
+        <input asp-for="Email" type="text" class="form-control" />
+    </div>
+
+
+    
+    <div class="mb-3">
+        <button class="btn btn-primary">Kayıt ol</button>
+    </div>
+
+
+    <div class="text-danger" asp-validation-summary="ModelOnly">
+
+    </div>
+</form>

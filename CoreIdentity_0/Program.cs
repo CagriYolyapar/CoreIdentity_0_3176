@@ -45,6 +45,9 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+
+
+
 app.UseRouting();
 
 app.UseAuthentication();
@@ -56,7 +59,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Role}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 
